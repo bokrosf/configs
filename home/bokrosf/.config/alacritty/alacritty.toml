@@ -1,0 +1,20 @@
+[window]
+dimensions = { columns = 107, lines = 27 }
+
+[font]
+normal = { family = "Noto Sans Mono", style = "Regular" }
+size = 10
+offset = { x = 1, y = 0 }
+
+[colors.primary]
+background = "#1e272b"
+
+[colors.normal]
+cyan = "#1a9c85"
+
+[keyboard]
+bindings = [
+    { key = "C", mods = "Control", action = "Copy" },
+    { key = "V", mods = "Control", action = "Paste" },
+    { key = "Q", mods = "Control", action = "Quit" }
+]
