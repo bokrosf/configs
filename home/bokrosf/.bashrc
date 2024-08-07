@@ -13,3 +13,5 @@ alias grep='grep --color=auto'
 
 #Custom
 PS1='\[\e[36m\][\u@\h\[\e[0m\] \w\[\e[36m\]]$\[\e[0m\] '
+
+export PATH="$PATH:$HOME/source/tools"
