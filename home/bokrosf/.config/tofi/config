@@ -1,0 +1,15 @@
+font = usr/share/fonts/noto/NotoSansMono-Regular.ttf
+width = 700
+height = 500
+background-color = #1E272B
+outline-width = 0
+border-width = 5
+border-color = #0B8AA6
+corner-radius = 8
+selection-color = #FFFFFF
+selection-background = #1C9181
+selection-background-padding = 0,15
+selection-background-corner-radius = 8
+horizontal = false
+font-hinting = false
+history = false
