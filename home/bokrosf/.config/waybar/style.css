@@ -3,11 +3,20 @@
     color: #ffffff;
 }
 
-#workspaces, #network ,#memory, #clock {
+#workspaces, #tray, #network ,#memory, #clock {
     background-color: #1a9c85;
     margin: 0em 1em 0em 0em;
     padding: 0.1em 1em 0.1em 1em;
     border-radius: 1.5em;
+}
+
+#workspaces {
+    border-radius: 0em 1.5em 1.5em 0em;
+}
+
+#tray {
+    margin: 0em;
+    border-radius: 1.5em 0em 0em 1.5em;
 }
 
 #network.ethernet {
