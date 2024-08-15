@@ -7,16 +7,18 @@
     background-color: #1a9c85;
     margin: 0em 1em 0em 0em;
     padding: 0.1em 1em 0.1em 1em;
-    border-radius: 1.5em;
+    border-radius: 0.5em 0.5em 1.2em 1.2em;
+    border: 0.1em solid;
+    border-color: rgb(69, 218, 218);
 }
 
 #workspaces {
-    border-radius: 0em 1.5em 1.5em 0em;
+    border-radius: 0em 0.5em 1.2em 0em;
 }
 
 #tray {
     margin: 0em;
-    border-radius: 1.5em 0em 0em 1.5em;
+    border-radius: 0.5em 0em 0em 1.2em;
 }
 
 #network.ethernet {
