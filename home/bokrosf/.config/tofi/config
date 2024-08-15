@@ -11,5 +11,5 @@ selection-background = #1C9181
 selection-background-padding = 0,15
 selection-background-corner-radius = 8
 horizontal = false
-font-hinting = false
+hint-font = false
 history = false
