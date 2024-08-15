@@ -8,10 +8,11 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# Default
+# Default Prompt
 #PS1='[\u@\h \W]$ '
 
-#Custom
+# Custom Prompt
 PS1='\[\e[36m\][\u@\h\[\e[0m\] \w\[\e[36m\]]$\[\e[0m\] '
 
+# Global Variables
 export PATH="$PATH:$HOME/source/tools"
