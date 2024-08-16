@@ -6,6 +6,9 @@
         "hyprland/workspaces",
         "tray"
     ],
+    "modules-center": [
+        "hyprland/window"
+    ],
     "modules-right": [
         "memory",
         "network",
@@ -13,6 +16,10 @@
     ],
     "hyprland/workspaces": {
         "format": "{id}"
+    },
+    "hyprland/window": {
+        "format": "{title}",
+        "icon": true
     },
     "tray": {
         "icon_size": 20,
