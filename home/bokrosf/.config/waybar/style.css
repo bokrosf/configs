@@ -29,12 +29,13 @@ window#waybar.empty #window{
 #workspaces button {
     color: #ffffff;
     margin: 0.0em 0.25em;
-    background-color: #1a9c85;
+    background-color: transparent;
     border-radius: 1em;
 }
 
 #workspaces button.active {
     background-color: #067e78;
+    margin-bottom: 0.1em;
 }
 
 #clock.time {
