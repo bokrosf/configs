@@ -2,19 +2,20 @@
     "layer": "top",
     "reload_style_on_change": true,
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "tray"
     ],
     "modules-right": [
         "memory",
         "network",
-        "clock",
-        "tray"
+        "clock"
     ],
     "hyprland/workspaces": {
-        "format": "{id}",
-        "persistent_workspaces": {
-            "*": 9
-        }
+        "format": "{id}"
+    },
+    "tray": {
+        "icon_size": 20,
+        "spacing": 10
     },
     "memory": {
         "interval": 30,
@@ -30,9 +31,5 @@
         "calendar": {
             "mode": "month"
         }
-    },
-    "tray": {
-        "icon_size": 20,
-        "spacing": 10
     }
 }
