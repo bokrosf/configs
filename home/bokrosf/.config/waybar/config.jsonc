@@ -14,7 +14,8 @@
         "temperature",
         "temperature#gpu",
         "network",
-        "clock"
+        "clock#date",
+        "clock#time"
     ],
     "hyprland/workspaces": {
         "format": "{id}"
@@ -44,10 +45,10 @@
         "format-ethernet": "conn",
         "format-disconnected": "disconn"
     },
-    "clock": {
-        "format": "{:%Y. %m. %d. %H:%M}",
-        "calendar": {
-            "mode": "month"
-        }
+    "clock#date": {
+        "format": "{:%Y. %m. %d.}"
+    },
+    "clock#time": {
+        "format": "{:%H:%M}"
     }
 }
