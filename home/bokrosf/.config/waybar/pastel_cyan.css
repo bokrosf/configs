@@ -1,0 +1,56 @@
+* {
+    padding: 0em;
+    font-family: 'Noto Sans Mono';
+}
+
+#waybar {
+    background-color: #757575;
+    color: #ffffff;
+}
+
+#workspaces, #window, #memory, #temperature, #network, #clock {
+    background-color: #1a9c85;
+    padding: 0.0em 1em;
+    margin: 0em 0.25em;
+    border: #535353 0.13em solid;
+    border-radius: 0.3em 0.3em 1.2em 1.2em;
+}
+
+#window {
+    border-radius: 0.5em 0.5em 1.5em 1.5em;
+}
+
+window#waybar.empty #window{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#workspaces {
+    padding-left: 0em;
+    margin-left: 0em;
+    border-left: none;
+    border-radius: 0em 0.5em 2.3em 0em;
+}
+
+#workspaces button {
+    color: #ffffff;
+    margin: 0.0em 0.25em;
+    background-color: transparent;
+    border-radius: 1em;
+}
+
+#workspaces button.active {
+    background-color: #067e78;
+    margin-bottom: 0.1em;
+}
+
+#clock.time {
+    margin-right: 0em;
+    border-radius: 0.5em 0em 0em 2.3em;
+    border-right: none;
+    background-image: none;
+}
+
+#network.disconnected {
+    background-color: #ff0000;
+}
