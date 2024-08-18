@@ -1,5 +1,6 @@
 * {
     padding: 0em;
+    font-size: 0.97em;
     font-family: 'Noto Sans Mono';
 }
 
@@ -15,7 +16,7 @@
     border: #535353 0.13em solid;
     border-radius: 0.3em 0.3em 1.2em 1.2em;
     border-color: #45dada;
-    box-shadow: 0em 0em 0.5em 0.36em #41bbda
+    box-shadow: 0em 0em 0.6em 0.5em #41bbda
 }
 
 #window {
