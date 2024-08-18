@@ -4,18 +4,18 @@
 }
 
 #waybar {
-    background-color: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.847));
     color: #ffffff;
 }
 
 #workspaces, #window, #memory, #temperature, #network, #clock {
     background-color: #1a9c85;
     padding: 0.0em 1em;
-    margin: 0.3em 1.1em 1em 1.1em;
+    margin: 0.3em 1.2em 1em 1.2em;
     border: #535353 0.13em solid;
     border-radius: 0.3em 0.3em 1.2em 1.2em;
     border-color: #45dada;
-    box-shadow: 0em 0em 0.65em 0.4em #41bbda
+    box-shadow: 0em 0em 0.5em 0.36em #41bbda
 }
 
 #window {
