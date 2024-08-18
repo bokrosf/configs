@@ -1,5 +1,6 @@
 [window]
 dimensions = { columns = 107, lines = 27 }
+padding = { x = 3, y = 3 }
 
 [font]
 normal = { family = "Noto Sans Mono", style = "Regular" }
