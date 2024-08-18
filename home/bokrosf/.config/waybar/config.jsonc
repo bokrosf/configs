@@ -41,12 +41,10 @@
         "format": "GPU {temperatureC}°C"
     },
     "network": {
-        "interface": "enp6s0",
-        "format-ethernet": "conn",
-        "format-disconnected": "disconn"
+        "interface": "enp6s0"
     },
     "clock#date": {
-        "format": "{:%Y. %m. %d.}"
+        "format": "{:%Y.%m.%d.}"
     },
     "clock#time": {
         "format": "{:%H:%M}"

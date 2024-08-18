@@ -54,7 +54,17 @@ window#waybar.empty #window{
     border-right: none;
 }
 
+#network {
+    color: transparent;
+    padding: 0em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/ethernet.svg");
+}
+
 #network.disconnected {
     opacity: 0.5;
     box-shadow: none;
+    background-image: url("images/disconnected_ethernet.svg");
 }
