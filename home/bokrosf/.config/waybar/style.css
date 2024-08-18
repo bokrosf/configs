@@ -11,9 +11,9 @@
 #workspaces, #window, #memory, #temperature, #network, #clock {
     background-color: #1a9c85;
     padding: 0.0em 1em;
+    margin: 0em 0.25em;
     border: #535353 0.13em solid;
     border-radius: 0.3em 0.3em 1.2em 1.2em;
-    border-top: none;
 }
 
 #window {
@@ -27,6 +27,7 @@ window#waybar.empty #window{
 
 #workspaces {
     padding-left: 0em;
+    margin-left: 0em;
     border-left: none;
     border-radius: 0em 0.5em 2.3em 0em;
 }
@@ -44,6 +45,7 @@ window#waybar.empty #window{
 }
 
 #clock.time {
+    margin-right: 0em;
     border-radius: 0.5em 0em 0em 2.3em;
     border-right: none;
 }
