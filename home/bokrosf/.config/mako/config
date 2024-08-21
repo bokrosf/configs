@@ -1,0 +1,13 @@
+max-history=10
+sort=-time
+font="Noto Sans Mono\Regular"
+background-color=#1A9C85
+text-color=#FFFFFFFF
+border-color=#45DADA
+border-size=3
+border-radius=4
+progress-color=#137777
+icons=1
+max-icon-size=32
+icon-location=right
+default-timeout=3000
