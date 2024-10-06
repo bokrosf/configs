@@ -4,9 +4,8 @@ padding = { x = 3, y = 3 }
 opacity = 0.8
 
 [font]
-normal = { family = "Noto Sans Mono", style = "Regular" }
-size = 10
-offset = { x = 1, y = 0 }
+normal = { family = "Monaspace Neon", style = "Bold" }
+size = 10.5
 
 [colors.primary]
 background = "#1e272b"
