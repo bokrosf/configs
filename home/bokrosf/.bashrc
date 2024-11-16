@@ -15,4 +15,4 @@ alias grep='grep --color=auto'
 PS1='\[\e[36m\][\u@\h\[\e[0m\] \w\[\e[36m\]]$\[\e[0m\] '
 
 # Global Variables
-export PATH="$PATH:$HOME/source/tools"
+export PATH="$PATH:$HOME/tools"
