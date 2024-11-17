@@ -1,5 +1,6 @@
 alacritty
 alsa-utils
+base
 base-devel
 cmake
 code
@@ -25,6 +26,8 @@ kscreen
 kwallet-pam
 kwalletmanager
 lib32-pipewire
+linux
+linux-firmware
 mako
 man-db
 man-pages
