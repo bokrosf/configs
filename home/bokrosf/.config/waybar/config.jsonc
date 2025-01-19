@@ -14,6 +14,7 @@
         "temperature#cpu",
         "temperature#gpu",
         "network",
+        "bluetooth",
         "clock#date",
         "clock#time"
     ],
@@ -42,6 +43,12 @@
     },
     "network": {
         "interface": "enp6s0"
+    },
+    "bluetooth": {
+        "format": "xxx",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "on-click": "bluetooth_flip",
+        "on-click-right": "alacritty -e bluetui"
     },
     "clock#date": {
         "format": "{:%Y.%m.%d.}"
