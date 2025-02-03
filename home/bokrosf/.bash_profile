@@ -11,8 +11,5 @@ then
     1 )
       exec Hyprland
       ;;
-    2 )
-      exec startx
-      ;;
   esac
 fi
