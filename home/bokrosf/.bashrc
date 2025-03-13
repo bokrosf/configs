@@ -16,3 +16,5 @@ PS1='\[\e[36m\][\u@\h\[\e[0m\] \w\[\e[36m\]]$\[\e[0m\] '
 
 # Global Variables
 export PATH="$PATH:$HOME/tools"
+export GRIM_DEFAULT_DIR="$HOME/pictures/screenshots"
+
