@@ -37,6 +37,7 @@ kscreen
 kwallet-pam
 kwalletmanager
 lib32-pipewire
+libreoffice-still
 linux
 linux-firmware
 mako
@@ -47,6 +48,7 @@ mesa-utils
 neovim
 nftables
 ninja
+noto-fonts-emoji
 ntfs-3g
 otf-monaspace
 pipewire-alsa
