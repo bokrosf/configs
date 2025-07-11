@@ -4,11 +4,12 @@
   "IS_MINIMIZED": false,
   "OPEN_ON_STARTUP": false,
   "SKIP_HOST_UPDATE": true,
+  "BACKGROUND_COLOR": "#2c2d32",
   "WINDOW_BOUNDS": {
-    "x": 967,
+    "x": 14,
     "y": 58,
-    "width": 939,
+    "width": 1892,
     "height": 1008
   },
-  "BACKGROUND_COLOR": "#2c2d32"
+  "offloadAdmControls": false
 }

@@ -7,13 +7,13 @@ bluetui
 bluez
 bluez-utils
 brave-bin
+clang
 cmake
 code
 code-marketplace
 cups
 curl
 discord
-dolphin
 efibootmgr
 fastfetch
 firefox
@@ -45,6 +45,7 @@ man-db
 man-pages
 mesa
 mesa-utils
+nautilus
 neovim
 nftables
 ninja
