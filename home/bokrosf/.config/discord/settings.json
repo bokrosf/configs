@@ -8,8 +8,9 @@
   "WINDOW_BOUNDS": {
     "x": 14,
     "y": 58,
-    "width": 1892,
+    "width": 939,
     "height": 1008
   },
-  "offloadAdmControls": false
+  "offloadAdmControls": true,
+  "enableHardwareAcceleration": true
 }

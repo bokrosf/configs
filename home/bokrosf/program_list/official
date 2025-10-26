@@ -72,6 +72,8 @@ usbmuxd
 valgrind
 vifm
 vim
+vlc
+vlc-plugin-x264
 vulkan-radeon
 waybar
 wev
@@ -79,4 +81,5 @@ wl-clipboard
 woeusb
 wpaperd
 xf86-video-amdgpu
+yt-dlp
 zip
