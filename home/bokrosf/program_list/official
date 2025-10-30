@@ -6,7 +6,7 @@ base-devel
 bluetui
 bluez
 bluez-utils
-brave-bin
+chromium
 clang
 cmake
 code
@@ -34,6 +34,7 @@ intel-ucode
 kdeconnect
 kodi
 kscreen
+ksshaskpass
 kwallet-pam
 kwalletmanager
 lib32-pipewire
