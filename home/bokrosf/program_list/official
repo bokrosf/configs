@@ -58,6 +58,7 @@ playerctl
 ppsspp
 python-pyqt5
 qbittorrent
+rclone
 slurp
 smartmontools
 steam
