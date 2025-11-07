@@ -1,6 +1,6 @@
 * {
     padding: 0em;
-    font-size: 0.97em;
+    font-size: 1em;
     font-family: 'Noto Sans Mono';
 }
 
@@ -9,9 +9,9 @@
     color: #ffffff;
 }
 
-#workspaces, #window, #memory, #temperature, #network, #bluetooth, #clock {
+#workspaces, #window, #hardware, #connection, #datetime {
     background-color: #1a9c85;
-    padding: 0.0em 1em;
+    padding: 0em 1em;
     margin: 0.3em 1.2em 1em 1.2em;
     border: #535353 0.13em solid;
     border-radius: 0.3em 0.3em 1.2em 1.2em;
@@ -48,45 +48,33 @@ window#waybar.empty #window{
     margin-bottom: 0.1em;
 }
 
-#clock.time {
+#hardware {
+    border-radius: 0.5em 2.3em 0.5em 2.3em;
+}
+
+#temperature.cpu {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#connection {
+    border-radius: 0.5em 2.3em 0.5em 2.3em;
+}
+
+#bluetooth {
+    margin-left: 1em;
+}
+
+#datetime {
     margin-right: 0em;
     border-radius: 0.5em 0em 0em 2.3em;
     border-right: none;
 }
 
-#network {
-    color: transparent;
-    padding: 0em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("images/ethernet.svg");
-}
-
 #network.disconnected {
     opacity: 0.5;
-    box-shadow: none;
-    background-image: url("images/disconnected_ethernet.svg");
-}
-
-#bluetooth {
-    color: transparent;
-    padding: 0em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#bluetooth.on {
-    background-image: url("images/bluetooth_on.svg");
 }
 
 #bluetooth.off {
-    color: transparent;
-    box-shadow: none;
-    background-image: url("images/bluetooth_off.svg");
-}
-
-#bluetooth.connected {
-    background-image: url("images/bluetooth_connected.svg")
+    opacity: 0.5;
 }

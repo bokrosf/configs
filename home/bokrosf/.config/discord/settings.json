@@ -6,10 +6,10 @@
   "SKIP_HOST_UPDATE": true,
   "BACKGROUND_COLOR": "#2c2d32",
   "WINDOW_BOUNDS": {
-    "x": 14,
+    "x": 487,
     "y": 58,
-    "width": 939,
-    "height": 1008
+    "width": 466,
+    "height": 497
   },
   "offloadAdmControls": true,
   "enableHardwareAcceleration": true
