@@ -1,0 +1,7 @@
+configuration {
+	modes: "drun";
+	show-icons: true;
+    disable-history: true;
+}
+
+@theme "cyberpunk"

@@ -1,0 +1,54 @@
+* {
+    background-color: transparent;
+    background: #25323E;
+    text-color: #FFFFFFFF;
+    main-content-padding: 0.5em 0.5em;
+    border-color: #1A9C85;
+    border-style: 0.25em solid;
+}
+
+window {
+    width: 30%;
+    children: [ mainbox ];
+}
+
+mainbox {
+    children: [ promptbar, promptbar-separator, listview ];
+}
+
+promptbar {
+    background-color: var(background);
+    orientation: horizontal;
+    expand: false;
+    padding: var(main-content-padding);
+    border: var(border-style);
+    border-radius: 0.5em 0.5em 7em 7em;
+    children: [ prompt, textbox-prompt-separator, entry ];
+}
+
+promptbar-separator {
+    expand: false;
+    background-color: transparent;
+    margin: 0.5em 0em;
+}
+
+textbox-prompt-separator {
+    expand: false;
+    content: ">";
+}
+
+listview {
+    background-color: var(background);
+    padding: var(main-content-padding);
+    border: var(border-style);
+    border-radius: 1em 1em 1em 1em;
+}
+
+element {
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
+
+element.selected {
+    background-color: #1A9C85;
+}
