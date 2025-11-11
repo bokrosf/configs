@@ -53,3 +53,10 @@ element {
 element.selected {
     background-color: #1A9C85;
 }
+
+error-message {
+    background-color: var(background);
+    padding: var(main-content-padding);
+    border: var(border-style);
+    border-radius: 1em 1em 1em 1em;
+}
