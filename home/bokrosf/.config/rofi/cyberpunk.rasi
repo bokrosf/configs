@@ -50,6 +50,11 @@ element {
     border-radius: 0.5em;
 }
 
+element-icon {
+    size: 0.9em;
+    padding: 0em 0.5em 0em 0.3em;
+}
+
 element.selected {
     background-color: #1A9C85;
 }
