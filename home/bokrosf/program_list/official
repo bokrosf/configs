@@ -1,6 +1,7 @@
 alacritty
 alsa-utils
 archlinux-xdg-menu
+aurutils
 base
 base-devel
 bluetui
@@ -10,7 +11,6 @@ chromium
 clang
 cmake
 code
-code-marketplace
 cups
 curl
 discord
@@ -25,6 +25,8 @@ gimp
 git
 grim
 gwenview
+hplip-plugin
+hplip-plugin-debug
 htop
 hypridle
 hyprland
@@ -55,7 +57,6 @@ otf-font-awesome
 otf-monaspace
 pipewire-alsa
 playerctl
-ppsspp
 python-pyqt5
 qbittorrent
 rclone
@@ -75,12 +76,12 @@ valgrind
 vifm
 vim
 vlc
+vlc-plugin-cddb
 vlc-plugin-x264
 vulkan-radeon
 waybar
 wev
 wl-clipboard
-woeusb
 wpaperd
 xf86-video-amdgpu
 yt-dlp
