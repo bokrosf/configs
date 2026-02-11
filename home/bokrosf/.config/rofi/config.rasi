@@ -2,6 +2,8 @@ configuration {
 	modes: "drun";
 	show-icons: true;
     disable-history: true;
+    matching: "prefix";
+    drun-match-fields: "name";
 }
 
 @theme "cyberpunk"
