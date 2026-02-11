@@ -1,6 +1,6 @@
 configuration {
-	modes: "drun";
-	show-icons: true;
+    modes: "drun";
+    show-icons: true;
     disable-history: true;
     matching: "prefix";
     drun-match-fields: "name";
