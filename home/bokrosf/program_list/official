@@ -1,7 +1,6 @@
 alacritty
 alsa-utils
 archlinux-xdg-menu
-aurutils
 base
 base-devel
 bluetui
@@ -47,6 +46,7 @@ man-db
 man-pages
 mesa
 mesa-utils
+mpd
 nautilus
 neovim
 nftables
@@ -60,6 +60,7 @@ playerctl
 python-pyqt5
 qbittorrent
 rclone
+rmpc
 rofi
 slurp
 smartmontools
@@ -75,7 +76,10 @@ valgrind
 vifm
 vim
 vlc
+vlc-plugin-ass
 vlc-plugin-cddb
+vlc-plugin-ffmpeg
+vlc-plugin-srt
 vlc-plugin-x264
 vulkan-radeon
 waybar

@@ -12,5 +12,7 @@
     "height": 1005
   },
   "offloadAdmControls": true,
-  "enableHardwareAcceleration": true
+  "enableHardwareAcceleration": true,
+  "enableLibOpenH264Electron": false,
+  "openH264Enabled": true
 }
