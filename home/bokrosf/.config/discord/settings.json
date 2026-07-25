@@ -14,5 +14,10 @@
   "offloadAdmControls": true,
   "enableHardwareAcceleration": true,
   "enableLibOpenH264Electron": false,
-  "openH264Enabled": true
+  "openH264Enabled": true,
+  "DESKTOP_TTI_REMOVE_V8_CACHE_CLEAR": true,
+  "DESKTOP_TTI_DNSTCP_WARMUP": true,
+  "DESKTOP_TTI_HTTP_CDT": true,
+  "DESKTOP_TTI_SPLASH_USE_WEBP": true,
+  "DESKTOP_TTI_EARLY_UPDATE_CHECK": true
 }
