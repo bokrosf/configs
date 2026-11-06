@@ -15,7 +15,8 @@
         "group/datetime"
     ],
     "hyprland/workspaces": {
-        "format": "{id}"
+        "format": "{id}",
+	"on-click": "activate"
     },
     "hyprland/window": {
         "format": "{class}",
